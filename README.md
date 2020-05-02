@@ -13,3 +13,6 @@ Credits goes to:
 5. JakeWhaton Butterknife
 6. Firebase Authentication
 
+# Project Structure
+
+
