@@ -15,3 +15,104 @@ Credits goes to:
 
 # Project Structure/Tree
 
+├─ .idea
+│  ├─ codeStyles
+│  │  ├─ Project.xml
+│  │  └─ codeStyleConfig.xml
+│  ├─ dictionaries
+│  │  └─ F0d1e.xml
+│  ├─ gradle.xml
+│  ├─ misc.xml
+│  └─ runConfigurations.xml
+├─ app
+│  ├─ src
+│  │  ├─ androidTest
+│  │  │  └─ java
+│  │  │     └─ com
+│  │  │        └─ brian
+│  │  │           └─ f0d1e
+│  │  │              └─ ExampleInstrumentedTest.java
+│  │  ├─ main
+│  │  │  ├─ java
+│  │  │  │  └─ com
+│  │  │  │     └─ brian
+│  │  │  │        └─ f0d1e
+│  │  │  │           ├─ Adapter
+│  │  │  │           │  ├─ InstructionAdapter.java
+│  │  │  │           │  └─ MyAdapter.java
+│  │  │  │           ├─ Model
+│  │  │  │           │  ├─ InstructionResponse.java
+│  │  │  │           │  ├─ Recipe.java
+│  │  │  │           │  ├─ RecipiesResponse.java
+│  │  │  │           │  └─ Step.java
+│  │  │  │           ├─ Retrofit
+│  │  │  │           │  ├─ ApiClient.java
+│  │  │  │           │  └─ ApiInterface.java
+│  │  │  │           ├─ MainActivity.java
+│  │  │  │           └─ RecipeDetailsActivity.java
+│  │  │  ├─ res
+│  │  │  │  ├─ drawable-v24
+│  │  │  │  │  └─ ic_launcher_foreground.xml
+│  │  │  │  ├─ drawable
+│  │  │  │  │  ├─ header.png
+│  │  │  │  │  ├─ ic_launcher_background.xml
+│  │  │  │  │  └─ searchview_rounded.xml
+│  │  │  │  ├─ layout
+│  │  │  │  │  ├─ activity_main.xml
+│  │  │  │  │  ├─ activity_recipe_details.xml
+│  │  │  │  │  ├─ content_recipe_details.xml
+│  │  │  │  │  ├─ recycler_row.xml
+│  │  │  │  │  └─ steplist_row.xml
+│  │  │  │  ├─ mipmap-anydpi-v26
+│  │  │  │  │  ├─ ic_launcher.xml
+│  │  │  │  │  └─ ic_launcher_round.xml
+│  │  │  │  ├─ mipmap-hdpi
+│  │  │  │  │  ├─ ic_launcher.png
+│  │  │  │  │  ├─ ic_launcher_foreground.png
+│  │  │  │  │  └─ ic_launcher_round.png
+│  │  │  │  ├─ mipmap-mdpi
+│  │  │  │  │  ├─ ic_launcher.png
+│  │  │  │  │  ├─ ic_launcher_foreground.png
+│  │  │  │  │  └─ ic_launcher_round.png
+│  │  │  │  ├─ mipmap-xhdpi
+│  │  │  │  │  ├─ ic_launcher.png
+│  │  │  │  │  ├─ ic_launcher_foreground.png
+│  │  │  │  │  └─ ic_launcher_round.png
+│  │  │  │  ├─ mipmap-xxhdpi
+│  │  │  │  │  ├─ ic_launcher.png
+│  │  │  │  │  ├─ ic_launcher_foreground.png
+│  │  │  │  │  └─ ic_launcher_round.png
+│  │  │  │  ├─ mipmap-xxxhdpi
+│  │  │  │  │  ├─ ic_launcher.png
+│  │  │  │  │  ├─ ic_launcher_foreground.png
+│  │  │  │  │  └─ ic_launcher_round.png
+│  │  │  │  └─ values
+│  │  │  │     ├─ colors.xml
+│  │  │  │     ├─ dimens.xml
+│  │  │  │     ├─ ic_launcher_background.xml
+│  │  │  │     ├─ strings.xml
+│  │  │  │     └─ styles.xml
+│  │  │  ├─ AndroidManifest.xml
+│  │  │  └─ ic_launcher-playstore.png
+│  │  └─ test
+│  │     └─ java
+│  │        └─ com
+│  │           └─ brian
+│  │              └─ f0d1e
+│  │                 └─ ExampleUnitTest.java
+│  ├─ .gitignore
+│  ├─ build.gradle
+│  └─ proguard-rules.pro
+├─ gradle
+│  └─ wrapper
+│     ├─ gradle-wrapper.jar
+│     └─ gradle-wrapper.properties
+├─ .gitignore
+├─ README.md
+├─ build.gradle
+├─ gradle.properties
+├─ gradlew
+├─ gradlew.bat
+└─ settings.gradle
+
+
